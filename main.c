@@ -18,7 +18,7 @@ int* obfuscate(int num, int obfLimit) {
 
             // replace randomize newNum: 0 with negative randomized number.
             if (newNum == 0) {
-                newNum = -(rand() % (currentSum - 0));
+                newNum = -(rand() % (currentSum + 1));
             }
         } else {
             // must add up to num now.
