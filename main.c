@@ -2,14 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-int mathSign(int num) {
-    if (num > 0) {
-        return 1;
-    } else {
-        return -1;
-    }
-}
-
 int* obfuscate(int num, int obfLimit) {
     int newNum = 0;
     int currentSum = 0;
