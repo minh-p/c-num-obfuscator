@@ -34,7 +34,7 @@ int* obfuscate(int num, int obfLimit) {
 
 int main() {
 
-    // random config
+    // RNG config
     time_t t;
     srand((unsigned) time(&t));
 
